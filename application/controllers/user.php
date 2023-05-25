@@ -28,6 +28,7 @@ class index extends CI_Controller {
 		$this->load->view('DayaTarik/body');
 		$this->load->view('DayaTarik/footer');
 	}
+	
 
 	
 }

@@ -3,22 +3,22 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="<?= base_url('template/img/carousel-1.jpg') ?>" alt="Image">
+                    <img class="w-100" src="<?= base_url('template/img/slidergeger1.jpg') ?>" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Selamat datang di </h4>
                             <h1 class="display-3 text-white mb-md-4">Website Pantai Geger</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Sini</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="<?= base_url('template/img/carousel-2.jpg') ?>" alt="Image">
+                    <img class="w-100" src="<?= base_url('template/img/slidergeger2.jpg') ?>" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Selamat datang di </h4>
                             <h1 class="display-3 text-white mb-md-4">Website Pantai Geger</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Sini</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
                         </div>
                     </div>
                 </div>
@@ -39,11 +39,11 @@
 
 
     <!-- Booking Start -->
-    <div class="container-fluid booking mt-5 pb-5">
-        <div class="container pb-5">
-            <div class="bg-light shadow" style="padding: 30px;">
+    <div class="container-fluid booking mt-5 pt-3 pb-2">
+        <div class="container pb-4">
+            <div class="bg-light shadow" style="padding: 10px;">
                 <div class="row align-items-center" style="min-height: 60px;">
-                    <div class="col-md-10">
+                    <!-- <div class="col-md-10">
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
@@ -80,43 +80,44 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
+                    </div> -->
+                    <!-- <div class="col-md-2">
                         <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
     <!-- Booking End -->
 
-
     <!-- About Start -->
     <div class="container-fluid py-5">
-        <div class="container pt-5">
+        <div class="container pb-5">
             <div class="row">
-                <div class="col-lg-6" style="min-height: 500px;">
+                <div class="col-lg-6" style="min-height: 320px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="<?= base_url('template/img/about.jpg') ?>" style="object-fit: cover;">
+                        <img class="position-absolute w-130 h-100" src="<?= base_url('template/img/geger2aja.jpg') ?>" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                        <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-                        <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">DESKRIPSI</h6>
+                        <h1 class="mb-3">Tentang Pantai Geger</h1>
+                        <p>Pantai Geger terletak di Desa Adat Peminge, Kecamatan Kuta Selatan, Kabupaten Badung, Bali. Pantai ini terletak sekitar 14 kilometer dari Bandara Internasional Ngurah Rai dan dapat dijangkau dengan mobil atau taksi. Pantai Geger memiliki luas sekitar 100 meter dan terkenal dengan pemandangan matahari terbenam yang memukau. </p>
                         <div class="row mb-4">
                             <div class="col-6">
-                                <img class="img-fluid" src="<?= base_url('template/img/about-1.jpg') ?>" alt="">
+                                <img class="img-fluid" src="<?= base_url('template/img/geger1aja.jpg') ?>" alt="">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="<?= base_url('template/img/about-2.jpg') ?>" alt="">
+                                <img class="img-fluid" src="<?= base_url('template/img/geger4aja.jpg') ?>" alt="">
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary mt-1">Book Now</a>
+                        <a href="https://www.google.co.id/maps/place/Geger+Beach/@-8.8133099,115.2099557,15.44z/data=!4m6!3m5!1s0x2dd25d7da0820c85:0x38e8cbe3998b5d4b!8m2!3d-8.8154871!4d115.2262344!16s%2Fg%2F11sgdw6zbv" class="btn btn-primary mt-1">Kunjungi Kami</a>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </div>
     <!-- About End -->
@@ -124,7 +125,7 @@
 
     <!-- Feature Start -->
     <div class="container-fluid pb-5">
-        <div class="container pb-5">
+        <div class="container pt-5 pb-5">
             <div class="row">
                 <div class="col-md-4">
                     <div class="d-flex mb-4 mb-lg-0">
@@ -163,6 +164,24 @@
         </div>
     </div>
     <!-- Feature End -->
+    <div class="container-fluid py-5">
+        <div class="container pt-3 pb-2">
+            <div class="text-center mb-3 ">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">-</h6>
+                <h2>Kunjungi Kami</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid booking mt-5 pt-3 pb-2 ml-2">
+        <div class="container pb-4">
+            <div class="row align-items-center" style="min-height: 60px;">
+                <div class="bg-light shadow" style="padding: 10px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.6866258148057!2d115.2236594753471!3d-8.815481790181193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd25d7da0820c85%3A0x38e8cbe3998b5d4b!2sGeger%20Beach!5e0!3m2!1sid!2sid!4v1684945817597!5m2!1sid!2sid" width="1100" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- Destination Start -->
@@ -395,57 +414,72 @@
     </div>
     <!-- Packages End -->
 
-
-    <!-- Registration Start -->
-    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+    <!-- contact start -->
+    <div class="container-fluid bg-registration py-5" style="margin: 80px 0;">
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="mb-4">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
-                        <h1 class="text-white"><span class="text-primary">30% OFF</span> For Honeymoon</h1>
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Hubungi Kami</h6>
+                        <h1 class="text-white"><span class="text-primary">Pantai</span> Geger</h1>
                     </div>
-                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <p class="text-white"></p>
                     <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Silakan Masukkan Nama Anda!</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Masukkan Email Anda!</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Tulis Komentar, Saran, Maupun Kritik Anda!</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Klik Kirim Untuk Mengirim Pesan!</li>
                     </ul>
                 </div>
                 <div class="col-lg-5">
                     <div class="card border-0">
                         <div class="card-header bg-primary text-center p-4">
-                            <h1 class="text-white m-0">Sign Up Now</h1>
+                            <h3 class="text-white m-0">Hubungi Kami</h3>
                         </div>
                         <div class="card-body rounded-bottom bg-white p-5">
-                            <form>
+                            <?php
+                            if ($this->session->flashdata('error') != '') {
+                                echo '<div class="alert alert-danger" role="alert">';
+                                echo $this->session->flashdata('error');
+                                echo '</div>';
+                            }
+                            ?>
+
+                            <?php
+                            if ($this->session->flashdata('success_register') != '') {
+                                echo '<div class="alert alert-info" role="alert">';
+                                echo $this->session->flashdata('success_register');
+                                echo '</div>';
+                            }
+                            ?>
+                            <form class="center" method="post" action="<?php echo base_url(); ?>Login/proses">
                                 <div class="form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Your name" required="required" />
+                                    <label for="nama">Nama</label>
+                                    <input type="text" class="form-control" name="nama" id="nama" placeholder="Masukkan Nama ">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Your email" required="required" />
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="Masukkan Email ">
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Select a destination</option>
-                                        <option value="1">destination 1</option>
-                                        <option value="2">destination 1</option>
-                                        <option value="3">destination 1</option>
-                                    </select>
+                                    <label for="pesan">Pesan</label>
+                                    <input type="text" class="form-control" name="pesan" id="pesan" placeholder="Masukkan Pesan Anda">
+                                </div><br>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary"> Kirim </button>
                                 </div>
-                                <div>
-                                    <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
-                                </div>
+
                             </form>
                         </div>
+
+                        </body>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Registration End -->
+    <!-- contact end -->
+
 
 
     <!-- Team Start -->
@@ -539,7 +573,7 @@
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="text-center pb-4">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-1.jpg') ?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-1.jpg') ?>" style="width: 100px; height: 100px;">
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
                         </p>
@@ -548,7 +582,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-2.jpg') ?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-2.jpg') ?>" style="width: 100px; height: 100px;">
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
                         </p>
@@ -557,7 +591,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-3.jpg') ?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-3.jpg') ?>" style="width: 100px; height: 100px;">
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
                         </p>
@@ -566,7 +600,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-4.jpg') ?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-4.jpg') ?>" style="width: 100px; height: 100px;">
                     <div class="testimonial-text bg-white p-4 mt-n5">
                         <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
                         </p>
