@@ -95,3 +95,8 @@ body {
         padding: 40px 15px 15px 15px
     }
 }
+.bg-registration {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/geger2.jpg), no-repeat center center;
+    background-size: cover;
+  }
+  

@@ -19,14 +19,14 @@ class index extends CI_Controller {
 	public function about()
 	{
 		$this->load->view('layout/header');
-		$this->load->view('layout/navbar');
+		$this->load->view('About/navbar');
 		$this->load->view('About/body');
 		$this->load->view('layout/footer');
 	}
 	public function dayatarik()
 	{
 		$this->load->view('layout/header');
-		$this->load->view('layout/navbar');
+		$this->load->view('DayaTarik/navbar');
 		$this->load->view('DayaTarik/body');
 		$this->load->view('layout/footer');
 	}
