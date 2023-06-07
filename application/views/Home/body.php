@@ -3,7 +3,7 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="<?= base_url('template/img/slidergeger1.jpg') ?>" alt="Image">
+                    <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Selamat datang di </h4>
@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="<?= base_url('template/img/slidergeger2.jpg') ?>" alt="Image">
+                    <img class="w-100" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Selamat datang di </h4>
