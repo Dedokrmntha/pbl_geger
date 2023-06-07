@@ -92,7 +92,7 @@
                             <img class="img-fluid" src="<?= base_url('template/img/geger4aja.jpg') ?>" alt="">
                         </div>
                     </div>
-                    <a href="https://www.google.co.id/maps/place/Geger+Beach/@-8.8133099,115.2099557,15.44z/data=!4m6!3m5!1s0x2dd25d7da0820c85:0x38e8cbe3998b5d4b!8m2!3d-8.8154871!4d115.2262344!16s%2Fg%2F11sgdw6zbv" class="btn btn-primary mt-1">Kunjungi Kami</a>
+                    <a href="https://goo.gl/maps/4S8vvDB3u7PvjzZu6" class="btn btn-primary mt-1">Kunjungi Kami</a>
                 </div>
 
             </div>

@@ -43,6 +43,7 @@
         <div class="container pb-4">
             <div class="bg-light shadow" style="padding: 10px;">
                 <div class="row align-items-center" style="min-height: 60px;">
+
                     <!-- <div class="col-md-10">
                         <div class="row">
                             <div class="col-md-3">
@@ -81,9 +82,24 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- <div class="col-md-2">
-                        <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
-                    </div> -->
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider5.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,7 +117,7 @@
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">DESKRIPSI</h6>
+                        <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">DESKRIPSI</h4>
                         <h1 class="mb-3">Tentang Pantai Geger</h1>
                         <p>Pantai Geger terletak di Desa Adat Peminge, Kecamatan Kuta Selatan, Kabupaten Badung, Bali. Pantai ini terletak sekitar 14 kilometer dari Bandara Internasional Ngurah Rai dan dapat dijangkau dengan mobil atau taksi. Pantai Geger memiliki luas sekitar 100 meter dan terkenal dengan pemandangan matahari terbenam yang memukau. </p>
                         <div class="row mb-4">
@@ -112,7 +128,7 @@
                                 <img class="img-fluid" src="<?= base_url('template/img/geger4aja.jpg') ?>" alt="">
                             </div>
                         </div>
-                        <a href="https://www.google.co.id/maps/place/Geger+Beach/@-8.8133099,115.2099557,15.44z/data=!4m6!3m5!1s0x2dd25d7da0820c85:0x38e8cbe3998b5d4b!8m2!3d-8.8154871!4d115.2262344!16s%2Fg%2F11sgdw6zbv" class="btn btn-primary mt-1">Kunjungi Kami</a>
+                        <a href="https://goo.gl/maps/4S8vvDB3u7PvjzZu6" class="btn btn-primary mt-1">Kunjungi Kami</a>
                     </div>
 
                 </div>
@@ -122,53 +138,48 @@
     </div>
     <!-- About End -->
 
+    <!-- Service Start -->
+    <div class="container-fluid py-1">
+        <div class="container  pb-3">
+            <div class="text-center mb-3 pb-3">
 
-    <!-- Feature Start -->
-    <div class="container-fluid pb-5">
-        <div class="container pt-5 pb-5">
+                <h1>Fasilitas </h1>
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h6>
+            </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="d-flex mb-4 mb-lg-0">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                            <i class="fa fa-2x fa-money-check-alt text-white"></i>
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h5 class="">Competitive Pricing</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
-                        </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-toilet mx-auto mb-4"></i>
+                        <h5 class="mb-2">Toilet Umum</h5>
+                        <p class="m-0">Tersedia toilet umum yang bersih dan rapi</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="d-flex mb-4 mb-lg-0">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                            <i class="fa fa-2x fa-award text-white"></i>
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h5 class="">Best Services</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
-                        </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-store mx-auto mb-4"></i>
+                        <h5 class="mb-2">Warung Makanan</h5>
+                        <p class="m-0">Terdapat warung makanan dan minuman</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="d-flex mb-4 mb-lg-0">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                            <i class="fa fa-2x fa-globe text-white"></i>
-                        </div>
-                        <div class="d-flex flex-column">
-                            <h5 class="">Worldwide Coverage</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
-                        </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-car mx-auto mb-4"></i>
+                        <h5 class="mb-2">Lahan Parkir</h5>
+                        <p class="m-0">Tersedia lahan parkir untuk para pengunjung pantai yang cukup luas</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Feature End -->
+    <!-- Service End -->
+
+    <!-- google maps start -->
     <div class="container-fluid py-5">
         <div class="container pt-3 pb-2">
             <div class="text-center mb-3 ">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">-</h6>
+
                 <h2>Kunjungi Kami</h2>
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h6>
             </div>
         </div>
     </div>
@@ -181,15 +192,15 @@
             </div>
         </div>
     </div>
+    <!-- google maps end -->
 
 
-
-    <!-- Destination Start -->
+    <!-- fasilitas umum sekitar Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h1>Tempat Umum Sekitar</h1>
-                <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h5>
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h6>
 
             </div>
             <div class="row">
@@ -297,47 +308,14 @@
         </div>
     </div>
 
+    <!-- fasilitas umum sekitar end -->
 
-    <!-- Destination Start -->
 
 
-    <!-- Service Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Services</h6>
-                <h1>Tours & Travel Services</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                        <i class="fa fa-2x fa-route mx-auto mb-4"></i>
-                        <h5 class="mb-2">Travel Guide</h5>
-                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                        <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
-                        <h5 class="mb-2">Ticket Booking</h5>
-                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
-                        <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
-                        <h5 class="mb-2">Hotel Booking</h5>
-                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
 
 
     <!-- Packages Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
@@ -401,66 +379,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/package-4.jpg') ?>" alt="">
-                        <div class="p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/package-5.jpg') ?>" alt="">
-                        <div class="p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/package-6.jpg') ?>" alt="">
-                        <div class="p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
-                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
-                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
-                            </div>
-                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">$350</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Packages End -->
 
     <!-- contact start -->
@@ -532,7 +454,7 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Guides</h6>
@@ -609,7 +531,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Team End -->
 
 
@@ -618,7 +540,7 @@
         <div class="container py-5">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h6>
-                <h1>What Say Our Clients</h1>
+                <h1>Komentar Para Pengunjung</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="text-center pb-4">
@@ -667,14 +589,14 @@
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Blog</h6>
-                <h1>Latest From Our Blog</h1>
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h6>
+                <h1>Galeri Kami</h1>
             </div>
             <div class="row pb-3">
                 <div class="col-lg-4 col-md-6 mb-4 pb-2">
                     <div class="blog-item">
                         <div class="position-relative">
-                            <img class="img-fluid w-100" src="<?= base_url('template/img/blog-1.jpg') ?>" alt="">
+                            <img class="img-fluid w-100" src="<?= base_url('template/img/slider3.jpg') ?>" alt="">
                             <div class="blog-date">
                                 <h6 class="font-weight-bold mb-n1">01</h6>
                                 <small class="text-white text-uppercase">Jan</small>
@@ -693,7 +615,7 @@
                 <div class="col-lg-4 col-md-6 mb-4 pb-2">
                     <div class="blog-item">
                         <div class="position-relative">
-                            <img class="img-fluid w-100" src="<?= base_url('template/img/blog-2.jpg') ?>" alt="">
+                            <img class="img-fluid w-100" src="<?= base_url('template/img/slider2.jpg') ?>" alt="">
                             <div class="blog-date">
                                 <h6 class="font-weight-bold mb-n1">01</h6>
                                 <small class="text-white text-uppercase">Jan</small>
@@ -712,7 +634,64 @@
                 <div class="col-lg-4 col-md-6 mb-4 pb-2">
                     <div class="blog-item">
                         <div class="position-relative">
-                            <img class="img-fluid w-100" src="<?= base_url('template/img/blog-3.jpg') ?>" alt="">
+                            <img class="img-fluid w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="">
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">01</h6>
+                                <small class="text-white text-uppercase">Jan</small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
+                                <span class="text-primary px-2">|</span>
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
+                            </div>
+                            <a class="h5 m-0 text-decoration-none" href="">Dolor justo sea kasd lorem clita justo diam amet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="">
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">01</h6>
+                                <small class="text-white text-uppercase">Jan</small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
+                                <span class="text-primary px-2">|</span>
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
+                            </div>
+                            <a class="h5 m-0 text-decoration-none" href="">Dolor justo sea kasd lorem clita justo diam amet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="">
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">01</h6>
+                                <small class="text-white text-uppercase">Jan</small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Admin</a>
+                                <span class="text-primary px-2">|</span>
+                                <a class="text-primary text-uppercase text-decoration-none" href="">Tours & Travel</a>
+                            </div>
+                            <a class="h5 m-0 text-decoration-none" href="">Dolor justo sea kasd lorem clita justo diam amet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="<?= base_url('template/img/slider5.jpg') ?>" alt="">
                             <div class="blog-date">
                                 <h6 class="font-weight-bold mb-n1">01</h6>
                                 <small class="text-white text-uppercase">Jan</small>
