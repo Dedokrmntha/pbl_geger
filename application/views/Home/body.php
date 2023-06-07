@@ -188,67 +188,116 @@
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destination</h6>
-                <h1>Explore Top Destination</h1>
+                <h1>Tempat Umum Sekitar</h1>
+                <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h5>
+
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/destination-1.jpg') ?>" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">United States</h5>
-                            <span>100 Cities</span>
+                        <img class="img-fluid" src="<?= base_url('template/img/Bandara.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://goo.gl/maps/BQx4vg78VrX6wAYB9">
+                            <h5 class="text-white">Bandara I Gusti Ngurah Rai</h5>
+                            <span>
+                                <h3 class="text-white">30 Menit</h3>
+                            </span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/destination-2.jpg') ?>" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">United Kingdom</h5>
-                            <span>100 Cities</span>
+                        <img class="img-fluid" src="<?= base_url('template/img/ITDC.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://goo.gl/maps/DHkdWe4Px89271V99">
+                            <h5 class="text-white">ITDC Nusa Dua</h5>
+                            <span>
+                                <h3 class="text-white">13 Menit</h3>
+                            </span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/destination-3.jpg') ?>" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Australia</h5>
-                            <span>100 Cities</span>
+                        <img class="img-fluid" src="<?= base_url('template/img/Mulia.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://goo.gl/maps/LCgNwBQYmdjs6kAw9">
+                            <h5 class="text-white">Mulia Resort</h5>
+                            <span>
+                                <h3 class="text-white">6 Menit</h3>
+                            </span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/destination-4.jpg') ?>" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">India</h5>
-                            <span>100 Cities</span>
+                        <img class="img-fluid" src="<?= base_url('template/img/rsusurya.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://goo.gl/maps/Ap1GLGgCNiRGFNERA">
+                            <h5 class="text-white">RSU Surya Husadha</h5>
+                            <span>
+                                <h3 class="text-white">8 Menit</h3>
+                            </span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/destination-5.jpg') ?>" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">South Africa</h5>
-                            <span>100 Cities</span>
+                        <img class="img-fluid" src="<?= base_url('template/img/buoki.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://goo.gl/maps/UfEskfPePzBAjSy68">
+                            <h5 class="text-white">Warung Nasi Ayam Ibu Oki</h5>
+                            <span>
+                                <h3 class="text-white">7 Menit</h3>
+                            </span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="<?= base_url('template/img/destination-6.jpg') ?>" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Indonesia</h5>
-                            <span>100 Cities</span>
+                        <img class="img-fluid" src="<?= base_url('template/img/money.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://maps.app.goo.gl/jvXqTZdbv7k8nAZh6">
+                            <h5 class="text-white">Money Changer</h5>
+                            <span>
+                                <h3 class="text-white">6 Menit</h3>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="<?= base_url('template/img/baligolf.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://maps.app.goo.gl/jMYrxBqUEoyaXbQh9">
+                            <h5 class="text-white">Bali Nasional Golf</h5>
+                            <span>
+                                <h3 class="text-white">16 Menit</h3>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="<?= base_url('template/img/gwk.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://maps.app.goo.gl/dCa5X56pk2KxbEj17">
+                            <h5 class="text-white">Garuda Wisnu Kencana</h5>
+                            <span>
+                                <h3 class="text-white">25 Menit</h3>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="<?= base_url('template/img/pandawa.jpeg') ?>" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="https://maps.app.goo.gl/AffWy9pztVkm6ATi8">
+                            <h5 class="text-white">Pantai Pandawa</h5>
+                            <span>
+                                <h3 class="text-white">16 Menit</h3>
+                            </span>
                         </a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
+
+
     <!-- Destination Start -->
 
 
