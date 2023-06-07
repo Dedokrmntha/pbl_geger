@@ -1,17 +1,41 @@
- <!-- Header Start -->
- <div class="container-fluid page-header" >
-        <div class="container">
-            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                <h3 class="display-4 text-white text-uppercase">Daya Tarik</h3>
-                <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Daya Tarik</p>
+  <!-- Carousel Start -->
+  <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
+                            <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>
+                            <a href="https://www.water-sport-bali.com/pantai-geger-nusa-dua" class="btn btn-primary mt-1">Kunjungi Kami</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="<?= base_url('template/img/slider5.jpg') ?>" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
+                            <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>
+                            <a href="https://www.tripadvisor.co.id/HotelsNear-g297698-d4469771-Geger_Beach_Nusa_Dua_Bali-Nusa_Dua_Nusa_Dua_Peninsula_Bali.html"class="btn btn-primary mt-1">Kunjungi Kami</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
         </div>
     </div>
-    <!-- Header End -->
+    <!-- Carousel End -->
     <!-- Booking Start -->
     <div class="container-fluid booking mt-5 pb-5">
         <div class="container pb-5">
@@ -134,44 +158,44 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Akomodasi</h6>
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">KUNJUNGI</h6>
                 <h1>Akomodasi Yang Disediakan</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="text-center pb-4">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-1.jpg')?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/mulia.jpg')?>" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">Jalan Raya Nusa Dua Selatan | Kawasan Sawangan, Nusa Dua 80361, Indonesia. 0,4 km dari Pantai Geger
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Mulia Resort</h5>
+                        <span>Hotel Bintang 5</span>
                     </div>
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-2.jpg')?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/st-regis-beach-and-pool.jpg')?>" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">Kawasan Pariwisata | Lot S6, Nusa Dua 80363, Indonesia. 0,2 km dari Pantai Geger Nusa Dua Bali
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">The St. Regis Bali Resort</h5>
+                        <span>Hotel Bintang 5</span>
                     </div>
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-3.jpg')?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/the-mulia.jpg')?>" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">Jl. Raya Nusa Dua Selatan, Nusa Dua 80363, Indonesia. 0,2 km dari Pantai Geger Nusa Dua Bali
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">The Mulia</h5>
+                        <span>Hotel Bintang 5</span>
                     </div>
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-4.jpg')?>" style="width: 100px; height: 100px;" >
+                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/melia-bali.jpg')?>" style="width: 100px; height: 100px;" >
                     <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        <p class="mt-5">Kawasan Pariwisata ITDC Lot 1 | Jl. Nusa Dua, Nusa Dua 80363, Indonesia. 1,9 km dari Pantai Geger
                         </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                        <h5 class="text-truncate">Meliá Bali</h5>
+                        <span>Hotel Bintang 5</span>
                     </div>
                 </div>
             </div>
