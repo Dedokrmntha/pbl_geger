@@ -117,8 +117,8 @@
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">DESKRIPSI</h4>
-                        <h1 class="mb-3">Tentang Pantai Geger</h1>
+                        <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">MENGENAL</h4>
+                        <h1 class="mb-3">Pantai Geger</h1>
                         <p>Pantai Geger terletak di Desa Adat Peminge, Kecamatan Kuta Selatan, Kabupaten Badung, Bali. Pantai ini terletak sekitar 14 kilometer dari Bandara Internasional Ngurah Rai dan dapat dijangkau dengan mobil atau taksi. Pantai Geger memiliki luas sekitar 100 meter dan terkenal dengan pemandangan matahari terbenam yang memukau. </p>
                         <div class="row mb-4">
                             <div class="col-6">
@@ -386,7 +386,7 @@
     <!-- Packages End -->
 
     <!-- contact start -->
-    <div class="container-fluid bg-registration py-5" style="margin: 80px 0;">
+    <div class="container-fluid py-5" style="margin: 80px 0; background-image: linear-gradient(rgba(0, 0, 0,0.8), rgba(0, 0, 0, 0.5)), url('../template/img/slider3.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">

@@ -1,74 +1,108 @@
-<!-- Navbar End -->
-
-
-<!-- Header Start -->
-<div class="container-fluid page-header">
-    <div class="container">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-4 text-white text-uppercase">About</h3>
-            <div class="d-inline-flex text-white">
-                <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
-                <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                <p class="m-0 text-uppercase">About</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Header End -->
-
-
-<!-- Booking Start -->
-<div class="container-fluid booking mt-5 pb-5">
-    <div class="container ">
-        <div class="bg-light shadow" style="padding: 30px;">
-            <div class="row align-items-center" style="min-height: 60px;">
-                <div class="col-md-10">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="mb-3 mb-md-0">
-                                <select class="custom-select px-4" style="height: 47px;">
-                                    <option selected>Destination</option>
-                                    <option value="1">Destination 1</option>
-                                    <option value="2">Destination 1</option>
-                                    <option value="3">Destination 1</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="mb-3 mb-md-0">
-                                <div class="date" id="date1" data-target-input="nearest">
-                                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="mb-3 mb-md-0">
-                                <div class="date" id="date2" data-target-input="nearest">
-                                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="mb-3 mb-md-0">
-                                <select class="custom-select px-4" style="height: 47px;">
-                                    <option selected>Duration</option>
-                                    <option value="1">Duration 1</option>
-                                    <option value="2">Duration 1</option>
-                                    <option value="3">Duration 1</option>
-                                </select>
-                            </div>
+<!-- Carousel Start -->
+<div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                        <h1 class="display-3 text-white mb-md-4">Tentang</h1>
+                            <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
+                <div class="carousel-item">
+                    <img class="w-100" src="<?= base_url('template/img/slider5.jpg') ?>" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                        <h1 class="display-3 text-white mb-md-4">Tentang</h1>
+                            <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+    <!-- Booking Start -->
+    <div class="container-fluid booking mt-5 pt-3 pb-2">
+        <div class="container pb-4">
+            <div class="bg-light shadow" style="padding: 10px;">
+                <div class="row align-items-center" style="min-height: 60px;">
+
+                    <!-- <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Destination</option>
+                                        <option value="1">Destination 1</option>
+                                        <option value="2">Destination 1</option>
+                                        <option value="3">Destination 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Duration</option>
+                                        <option value="1">Duration 1</option>
+                                        <option value="2">Duration 1</option>
+                                        <option value="3">Duration 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider5.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Booking End -->
-
+    <!-- Booking End -->
 
 <!-- About Start -->
 <div class="container-fluid py-5">

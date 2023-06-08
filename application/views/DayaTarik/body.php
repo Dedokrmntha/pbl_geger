@@ -6,8 +6,8 @@
                     <img class="w-100" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
+                        <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>
                             <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
-                            <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>
                             <a href="https://www.water-sport-bali.com/pantai-geger-nusa-dua" class="btn btn-primary mt-1">Kunjungi Kami</a>
                         </div>
                     </div>
@@ -36,12 +36,14 @@
         </div>
     </div>
     <!-- Carousel End -->
+   
     <!-- Booking Start -->
-    <div class="container-fluid booking mt-5 pb-5">
-        <div class="container pb-5">
-            <div class="bg-light shadow" style="padding: 30px;">
+    <div class="container-fluid booking mt-5 pt-3 pb-2">
+        <div class="container pb-4">
+            <div class="bg-light shadow" style="padding: 10px;">
                 <div class="row align-items-center" style="min-height: 60px;">
-                    <div class="col-md-10">
+
+                    <!-- <div class="col-md-10">
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
@@ -78,9 +80,24 @@
                                 </div>
                             </div>
                         </div>
+                    </div> -->
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image">
                     </div>
                     <div class="col-md-2">
-                        <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider5.jpg') ?>" alt="Image">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="w-100 h-10" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
                     </div>
                 </div>
             </div>
