@@ -141,14 +141,14 @@
 <div class="container-fluid py-5">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Guides</h6>
-            <h1>Our Travel Guides</h1>
+            <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">Tampilan</h5>
+            <h1>Galeri</h1>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="<?= base_url('template/img/team-1.jpg') ?>" alt="">
+                        <img class="img-fluid w-100" src="<?= base_url('template/img/slider5.jpg') ?>" alt="">
                         <div class="team-social">
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -157,15 +157,15 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
+                        <!-- <h5 class="text-truncate">Guide Name</h5> -->
+                        <!-- <p class="m-0">Designation</p> -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="<?= base_url('template/img/team-2.jpg') ?>" alt="">
+                        <img class="img-fluid w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="">
                         <div class="team-social">
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -174,15 +174,15 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
+                        <!-- <h5 class="text-truncate">Guide Name</h5> -->
+                        <!-- <p class="m-0">Designation</p> -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="<?= base_url('template/img/team-3.jpg') ?>" alt="">
+                        <img class="img-fluid w-100" src="<?= base_url('template/img/slider2.jpg') ?>" alt="">
                         <div class="team-social">
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -191,15 +191,15 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
+                        <!-- <h5 class="text-truncate">Guide Name</h5> -->
+                        <!-- <p class="m-0">Designation</p> -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="team-item bg-white mb-4">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="<?= base_url('template/img/team-4.jpg') ?>" alt="">
+                        <img class="img-fluid w-100" src="<?= base_url('template/img/slider3.jpg') ?>" alt="">
                         <div class="team-social">
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -208,8 +208,8 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h5 class="text-truncate">Guide Name</h5>
-                        <p class="m-0">Designation</p>
+                        <!-- <h5 class="text-truncate">Guide Name</h5> -->
+                        <!-- <p class="m-0">Designation</p> -->
                     </div>
                 </div>
             </div>
