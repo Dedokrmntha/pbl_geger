@@ -1,20 +1,18 @@
-<form class="center" method="post" action="<?php echo base_url('C_galeri/add'); ?>">
-    <div class="form-group">
-        
-        <label for="nama">Judul</label>
-        <input type="text" class="form-control" name="judul_gambar" id="judul_gambar" placeholder="Masukkan Nama ">
+<form>
+    <div class="form-floating mb-3">
+        <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+        <label for="inputEmail">Email address</label>
     </div>
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="text" class="form-control" name="gambar" id="email" placeholder="Masukkan Email ">
+    <div class="form-floating mb-3">
+        <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
+        <label for="inputPassword">Password</label>
     </div>
-    <div class="form-group">
-        <label for="subjek">Subjek</label>
-        <input type="text" class="form-control" name="deskripsi" id="subjek" placeholder="Masukkan Subjek ">
+    <div class="form-check mb-3">
+        <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
+        <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
     </div>
-    
-    <div class="text-center">
-        <button type="submit" class="btn btn-primary"> Kirim </button>
+    <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+        <a class="small" href="password.html">Forgot Password?</a>
+        <a class="btn btn-primary" href="index.html">Login</a>
     </div>
-
 </form>
