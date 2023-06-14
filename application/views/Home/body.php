@@ -4,10 +4,11 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
-                    <video muted autoplay plays-inline loop class="back-video">
-                    <source src="<?= base_url(); ?>/template/img/a.mp4" type="video/mp4"></video>
+                    <video muted autoplay plays-inline loop class="back-video w-100">
+                        <source src="<?= base_url(); ?>/template/img/a.mp4" type="video/mp4">
+                    </video>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
+                        <div class="p-3" style=" max-height:100px; max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Selamat datang di </h4>
                             <h1 class="display-3 text-white mb-md-4">Website Pantai Geger</h1>
                             <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
@@ -388,7 +389,7 @@
     <!-- Packages End -->
 
     <!-- contact start -->
-    <div class="container-fluid py-5" style="margin: 80px 0; background-image: linear-gradient(rgba(0, 0, 0,0.8), rgba(0, 0, 0, 0.5)), url('../template/img/slider3.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+    <!-- <div class="container-fluid py-5" style="margin: 80px 0; background-image: linear-gradient(rgba(0, 0, 0,0.8), rgba(0, 0, 0, 0.5)), url('../template/img/slider3.jpg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
@@ -410,29 +411,22 @@
                             <h3 class="text-white m-0">Hubungi Kami</h3>
                         </div>
                         <div class="card-body rounded-bottom bg-white p-5">
-                            <?php
-                            if ($this->session->flashdata('error') != '') {
-                                echo '<div class="alert alert-danger" role="alert">';
-                                echo $this->session->flashdata('error');
-                                echo '</div>';
-                            }
-                            ?>
 
-                            <?php
-                            if ($this->session->flashdata('success_register') != '') {
-                                echo '<div class="alert alert-info" role="alert">';
-                                echo $this->session->flashdata('success_register');
-                                echo '</div>';
-                            }
-                            ?>
-                            <form class="center" method="post" action="<?php echo base_url(); ?>Login/proses">
+                            <form class="center" method="post" action="<?php echo base_url('C_komentar/add'); ?>">
                                 <div class="form-group">
+                                    <tr>
+                                        <td colspan="3"><?php echo form_error('nama') ?></td>
+                                    </tr>
                                     <label for="nama">Nama</label>
                                     <input type="text" class="form-control" name="nama" id="nama" placeholder="Masukkan Nama ">
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Email</label>
                                     <input type="text" class="form-control" name="email" id="email" placeholder="Masukkan Email ">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subjek">Subjek</label>
+                                    <input type="text" class="form-control" name="subjek" id="subjek" placeholder="Masukkan Subjek ">
                                 </div>
                                 <div class="form-group">
                                     <label for="pesan">Pesan</label>
@@ -450,7 +444,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- contact end -->
 
 
@@ -480,57 +474,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="<?= base_url('template/img/team-2.jpg') ?>" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="<?= base_url('template/img/team-3.jpg') ?>" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="<?= base_url('template/img/team-4.jpg') ?>" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div> -->
@@ -545,42 +488,22 @@
                 <h1>Komentar Para Pengunjung</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
-                <div class="text-center pb-4">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-1.jpg') ?>" style="width: 100px; height: 100px;">
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
+                <?php
+                foreach ($komentar as $key) {
+                ?>
+
+
+                    <div class="text-center">
+                        <img class="img-fluid mx-auto" src="<?= base_url('template/img/orangkomen.png') ?>" style="width: 100px; height: 100px;">
+                        <div class="testimonial-text bg-white p-4 mt-n5">
+                            <p class="mt-5"><?php echo $key['pesan'] ?></p>
+                            <h5 class="text-truncate"><?php echo $key['nama'] ?></h5>
+
+                        </div>
                     </div>
-                </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-2.jpg') ?>" style="width: 100px; height: 100px;">
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-3.jpg') ?>" style="width: 100px; height: 100px;">
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <img class="img-fluid mx-auto" src="<?= base_url('template/img/testimonial-4.jpg') ?>" style="width: 100px; height: 100px;">
-                    <div class="testimonial-text bg-white p-4 mt-n5">
-                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                        </p>
-                        <h5 class="text-truncate">Client Name</h5>
-                        <span>Profession</span>
-                    </div>
-                </div>
+                <?php
+                }
+                ?>
             </div>
         </div>
     </div>

@@ -6,14 +6,20 @@ class index extends CI_Controller {
 	{
 		parent::__construct();
 		
+		$this->load->model('M_komentar');
+		
+		
 	}
  
 
 	public function index()
 	{
+		$data = [
+			'komentar' => $this->M_komentar->get_all(),
+		];
 		$this->load->view('layout/header');
 		$this->load->view('layout/navbar');
-		$this->load->view('Home/body');
+		$this->load->view('Home/body',$data);
 		$this->load->view('layout/footer');
 	}
 	public function about()
@@ -38,6 +44,7 @@ class index extends CI_Controller {
 		$this->load->view('contact/body');
 		$this->load->view('layout/footer');
 	}
+	
 
 	
 }
