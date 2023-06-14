@@ -38,11 +38,11 @@
                              Admin
                          </a>
                          <div class="sb-sidenav-menu-heading">Master Data</div>
-                         <a class="nav-link" href="tables.html">
+                         <a class="nav-link" href="<?= base_url('C_admin/')?>">
                              <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                              Data Admin
                          </a>
-                         <a class="nav-link" href="tables.html">
+                         <a class="nav-link" href="<?= base_url('C_galeri/')?>">
                              <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                              Data Galeri
                          </a>
@@ -50,17 +50,17 @@
                              <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                              Data Komentar
                          </a>
-                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                         <!-- <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                              <div class="sb-nav-link-icon active"><i class="fas fa-columns"></i></div>
                              Data Website
                              <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                         </a>
-                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                         </a> -->
+                         <!-- <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                              <nav class="sb-sidenav-menu-nested nav">
                                  <a class="nav-link" href="<?= base_url('crudAdmin/index') ?>">Data Gambar</a>
                                  <a class="nav-link" href="layout-sidenav-light.html">Data Fasilitas</a>
                              </nav>
-                         </div>
+                         </div> -->
                          <!-- <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                              <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                              Pages

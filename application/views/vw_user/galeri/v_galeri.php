@@ -1,23 +1,26 @@
                       <div id="layoutSidenav_content">
                           <main>
                               <div class="container-fluid px-4">
-                                  <h1 class="mt-4">Data Komentar</h1>
-                                  <ol class="breadcrumb mb-4">
-                                      <li class="breadcrumb-item active">Admin</li>
+                                  <h1 class="mt-4">Data Galeri</h1>
+                                  <ol class="breadcrumb mb-2">
+                                      <li class="breadcrumb-item active">Admin</li> 
                                   </ol>
+                                  <a  class="btn btn-success mb-3" href="<?= base_url('C_galeri/tambah/')?>">Tambah</a> <br>
                                   <div class="card mb-4">
                                       <div class="card-header">
+
                                           <i class="fas fa-table me-1"></i>
-                                          Tabel Komentar
+                                          Tabel Gambar
+
                                       </div>
                                       <div class="card-body">
                                           <table class="table" id="datatablesSimple">
                                               <thead>
                                                   <tr>
                                                       <th>No</th>
-                                                      <th>Nama</th>
-                                                      <th>Email</th>
-                                                      <th>Komentar</th>
+                                                      <th>Judul</th>
+                                                      <th>Gambar</th>
+                                                      <th>Deskripsi</th>
                                                       <th>Action</th>
                                                   </tr>
                                               </thead>
@@ -25,18 +28,18 @@
                                                   <tr>
                                                       <?php
                                                         $no = 1;
-                                                        foreach ($komentar as $key) {
+                                                        foreach ($galeri as $key) {
                                                         ?>
                                                   <tr>
                                                       <td class="text-secondary text-xxs font-weight-bold"><?php echo $no++ ?></td>
-                                                      <td class="text-secondary text-xs font-weight-bold"><?php echo $key['nama'] ?>
+                                                      <td class="text-secondary text-xs font-weight-bold"><?php echo $key['judul_gambar'] ?>
                                                       </td>
-                                                      <td class="text-secondary text-xs font-weight-bold"><?php echo $key['email'] ?>
+                                                      <td class="text-secondary text-xs font-weight-bold"><?php echo $key['gambar'] ?>
                                                       </td>
-                                                      <td class="text-secondary text-xs font-weight-bold"><?php echo $key['pesan'] ?></td>
+                                                      <td class="text-secondary text-xs font-weight-bold"><?php echo $key['deskripsi'] ?></td>
                                                       <td>
-                                                          <!-- <a class="btn btn-primary" href="">Balas</a> -->
-                                                          <a class="btn btn-danger" href="<?php echo base_url('C_komentar/delete/' . $key['id_komentar']) ?>">Delete</a>
+                                                          <a class="btn btn-primary" href="">Edit</a>
+                                                          <a class="btn btn-danger" href="<?php echo base_url('C_galeri/delete/' . $key['id_gambar']) ?>">Delete</a>
                                                       </td>
 
 
@@ -46,7 +49,7 @@
                                                 ?>
                                               </tr>
                                               </tbody>
-                                              
+
                                           </table>
                                       </div>
                                   </div>
