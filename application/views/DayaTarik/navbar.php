@@ -11,19 +11,10 @@
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
                     <a href="<?= base_url('index/index') ?>" class="nav-item nav-link ">Beranda</a>
-                    <a href="<?= base_url('index/about') ?>" class="nav-item nav-link">Tentang</a>
+                    <a href="<?= base_url('index/about') ?>" class="nav-item nav-link">Deskripsi</a>
                     <a href="<?= base_url('index/dayatarik') ?>" class="nav-item nav-link active">Daya Tarik</a>
                     <!-- <a href="package.html" class="nav-item nav-link">Tour Packages</a> -->
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Galeri</a>
-                        <div class="dropdown-menu border-0 rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            <a href="destination.html" class="dropdown-item">Destination</a>
-                            <a href="guide.html" class="dropdown-item">Travel Guides</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
+                    <a href="<?= base_url('index/fotoGaleri') ?>" class="nav-item nav-link">Galeri</a>
                     <a href="<?= base_url('index/contact') ?>" class="nav-item nav-link">Hubungi</a>
                     <!-- <a href="<?= base_url('Login/index') ?>" class="nav-item nav-link">Login Admin</a> -->
                 </div>

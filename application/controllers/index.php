@@ -44,10 +44,19 @@ class index extends CI_Controller {
 		$this->load->view('contact/body');
 		$this->load->view('layout/footer');
 	}
-	
 
 	
+public function fotoGaleri()
+	{
+		
+		$this->load->view('layout/header');
+		$this->load->view('vw_user/galeri/navbarGaleri');
+		$this->load->view('vw_user/galeri/foto_galeri');
+		$this->load->view('layout/footer');
+	
 }
+}
+
 
 /* End of file  */
 /* Location: ./application/controllers/ */

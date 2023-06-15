@@ -1,24 +1,33 @@
-<!-- Carousel Start -->
-<div class="container-fluid p-0">
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image">
+                    <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
+                    <video muted autoplay plays-inline loop class="back-video w-100">
+                        <source src="<?= base_url(); ?>/template/img/d1.mp4" type="video/mp4">
+                    </video>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                        <h1 class="display-3 text-white mb-md-4">Tentang</h1>
+                        <div class="p-3" style=" max-height:100px; max-width: 900px;">
+                        <h1 class="display-3 text-white mb-md-4">Deskripsi</h1>
                             <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
+                           
+                            
+                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="<?= base_url('template/img/slider5.jpg') ?>" alt="Image">
+                    <video muted autoplay plays-inline loop class="back-video w-100">
+                        <source src="<?= base_url(); ?>/template/img/c1.mp4" type="video/mp4">
+                        <!-- <img class="w-100" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image"> -->
+                    </video>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                        <h1 class="display-3 text-white mb-md-4">Tentang</h1>
+                        <h1 class="display-3 text-white mb-md-4">Deskripsi</h1>
                             <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
+                           
+                            <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a> -->
                         </div>
                     </div>
                 </div>
@@ -136,6 +145,26 @@
 
     </div>
 </div>
+ <!-- google maps start -->
+ <div class="container-fluid py-5">
+        <div class="container pt-3 pb-2">
+            <div class="text-center mb-3 ">
+
+                <h2>Vidio Kami</h2>
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid booking mt-5 pt-3 pb-2 ml-2">
+        <div class="container pb-4">
+            <div class="row align-items-center" style="min-height: 60px;">
+                <div class="bg-light shadow" style="padding: 10px;">
+                    <iframe src="https://www.youtube.com/embed/nyOXV76NUS4" width="1100" height="720" margin="auto" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- google maps end -->
 
 <!-- Team Start -->
 <div class="container-fluid py-5">

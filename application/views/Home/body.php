@@ -5,7 +5,7 @@
                 <div class="carousel-item active">
                     <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
                     <video muted autoplay plays-inline loop class="back-video w-100">
-                        <source src="<?= base_url(); ?>/template/img/a.mp4" type="video/mp4">
+                        <source src="<?= base_url(); ?>/template/img/d2.mp4" type="video/mp4">
                     </video>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style=" max-height:100px; max-width: 900px;">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="carousel-item">
                     <video muted autoplay plays-inline loop class="back-video w-100">
-                        <source src="<?= base_url(); ?>/template/img/a.mp4" type="video/mp4">
+                        <source src="<?= base_url(); ?>/template/img/c2.mp4" type="video/mp4">
                         <!-- <img class="w-100" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image"> -->
                     </video>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
