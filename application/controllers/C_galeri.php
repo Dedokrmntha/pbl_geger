@@ -22,8 +22,8 @@ class C_galeri extends CI_Controller {
     }
     public function tambah()
     {
-        // $this->load->view('vw_user/header');
-        // $this->load->view('vw_user/navbar');
+        $this->load->view('vw_user/header');
+        $this->load->view('vw_user/navbar');
         $this->load->view('vw_user/galeri/v_tambah_galeri');
         $this->load->view('vw_user/footer');
     }

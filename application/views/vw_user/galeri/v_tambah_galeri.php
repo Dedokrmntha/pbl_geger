@@ -1,18 +1,67 @@
-<form>
-    <div class="form-floating mb-3">
-        <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-        <label for="inputEmail">Email address</label>
+
+
+
+<div id="layoutSidenav_content">
+                          <main>
+                              <div class="container-fluid px-4">
+                                  <h1 class="mt-4">Data Galeri</h1>
+                                  <ol class="breadcrumb mb-2">
+                                      <li class="breadcrumb-item active">Admin</li> 
+                                  </ol>
+                                  <a  class="btn btn-success mb-3" href="<?= base_url('C_galeri/tambah/')?>">Tambah</a> <br>
+                                  <div class="card mb-4">
+                                      <div class="card-header">
+
+                                          <i class="fas fa-table me-1"></i>
+                                          Tabel Gambar
+
+                                      </div>
+                                      <div class="card-body">
+                                      <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
     </div>
-    <div class="form-floating mb-3">
-        <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
-        <label for="inputPassword">Password</label>
-    </div>
-    <div class="form-check mb-3">
-        <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
-        <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
-    </div>
-    <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-        <a class="small" href="password.html">Forgot Password?</a>
-        <a class="btn btn-primary" href="index.html">Login</a>
-    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
 </form>
+                                      </div>
+                                  </div>
+                              </div>
+                          </main>

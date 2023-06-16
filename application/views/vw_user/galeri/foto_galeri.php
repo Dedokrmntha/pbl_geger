@@ -10,8 +10,8 @@
                         <div class="position-relative">
                             <img class="img-fluid w-100" src="<?= base_url('template/img/slider3.jpg') ?>" alt="">
                             <div class="blog-date">
-                                <h6 class="font-weight-bold mb-n1">01</h6>
-                                <small class="text-white text-uppercase">Jan</small>
+                                <h6 class="font-weight-bold mb-n1"></h6>
+                                <small class="text-white text-uppercase"></small> 
                             </div>
                         </div>
                         <div class="bg-white p-4">
