@@ -498,9 +498,10 @@
 
                     <div class="text-center">
                         <img class="img-fluid mx-auto" src="<?= base_url('template/img/orangkomen.png') ?>" style="width: 100px; height: 100px;">
-                        <div class="testimonial-text bg-white p-4 mt-n5">
-                            <p class="mt-5"><?php echo $key['pesan'] ?></p>
-                            <h5 class="text-truncate"><?php echo $key['nama'] ?></h5>
+                        <div class="testimonial-text bg-white p-4 mt-n5"> <br> <br>
+                            <h5 class="text-truncate "><?php echo $key['nama'] ?></h5>
+                            <p class="mt-3"><?php echo $key['pesan'] ?></p>
+                            
 
                         </div>
                     </div>

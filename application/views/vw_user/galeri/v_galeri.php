@@ -3,9 +3,9 @@
                               <div class="container-fluid px-4">
                                   <h1 class="mt-4">Data Galeri</h1>
                                   <ol class="breadcrumb mb-2">
-                                      <li class="breadcrumb-item active">Admin</li> 
+                                      <li class="breadcrumb-item active">Admin</li>
                                   </ol>
-                                  <a  class="btn btn-success mb-3" href="<?= base_url('C_galeri/tambah/')?>">Tambah</a> <br>
+                                  <a class="btn btn-success mb-3" href="<?= base_url('C_galeri/tambah/') ?>">Tambah</a> <br>
                                   <div class="card mb-4">
                                       <div class="card-header">
 
@@ -38,7 +38,7 @@
                                                       </td>
                                                       <td class="text-secondary text-xs font-weight-bold"><?php echo $key['deskripsi'] ?></td>
                                                       <td>
-                                                          <a class="btn btn-primary" href="">Edit</a>
+                                                          <a class="btn btn-primary" href="<?php echo base_url('C_galeri/ubah/' . $key['id_gambar']) ?>">Edit</a>
                                                           <a class="btn btn-danger" href="<?php echo base_url('C_galeri/delete/' . $key['id_gambar']) ?>">Delete</a>
                                                       </td>
 

@@ -25,6 +25,7 @@ class M_komentar extends CI_Model
             'nama' => $this->input->post('nama'),
             'email' => $this->input->post('email'),
             'pesan' => $this->input->post('pesan'),
+            'balas' => $this->input->post('balas'),
 
             );
         $result = $this->db->insert('tb_komentar', $insert);
@@ -36,7 +37,27 @@ class M_komentar extends CI_Model
         $this->db->where('id_komentar', $id);
         $result = $this->db->delete('tb_komentar');
         return $result;
-    }  
+    }
+    public function getDetailKomentar($id)
+    {
+        $this->db->where('id_komentar', $id);
+        $result = $this->db->get('tb_komentar');
+        return $result;
+    }
+    public function editKomentar()
+    {
+        $edit = array(
+            'nama' => $this->input->post('nama'),
+            'email' => $this->input->post('email'),
+            'pesan' => $this->input->post('pesan'),
+            'balas' => $this->input->post('balas'),
+           
+
+        );
+        $this->db->where('id_komentar', $this->input->post('id_komentar'));
+        $result = $this->db->update('tb_komentar', $edit);
+        return $result;
+    }
 }                        
                         
 
