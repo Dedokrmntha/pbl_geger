@@ -49,27 +49,58 @@ class C_galeri extends CI_Controller {
             $this->load->view('vw_user/galeri/v_tambah_galeri', $data);
             $this->load->view('vw_user/footer');
         } else {
-            $this->M_galeri->insertGaleri();
-            redirect('C_galeri');
-        }
+            if ($_FILES["filegambar"]["error"] == 0) {
+            //tempat gambar beserta nama filenya disimpan
+            $nama = $_FILES['filegambar']['name'];
+            $tempdir = './galeri';
 
-        // Konfigurasi upload gambar
-        $config['upload_path'] = './galeri';  // Ubah sesuai dengan direktori upload gambar
-        $config['allowed_types'] = 'gif|jpg|jpeg|png';
-        $config['max_size'] = 2048;  // Ukuran maksimum gambar dalam kilobita (2MB)
+            $target_path = $tempdir . $nama;
 
-        $this->load->library('upload', $config);
+            //ekstensi file yang diperbolehkan
+            $ekstensi_diperbolehkan = array('png', 'jpg');
 
-        if (!$this->upload->do_upload('gambar')) {
-            // Jika proses upload gagal, tangani error
-            $error = $this->upload->display_errors();
-            // Lakukan tindakan yang sesuai, seperti menampilkan pesan kesalahan
+
+            //mengambil ekstensi
+            $x = explode('.', $nama);
+            $ekstensi = strtolower(end($x));
+
+            if (in_array($ekstensi, $ekstensi_diperbolehkan) === false) {
+                $data_session = array(
+                    'alert_home' => 'File harus PNG / JPG'
+                );
+
+                $this->session->set_userdata($data_session);
+                redirect(base_url("AdminVilla/fasilitas"));
+            } else {
+                move_uploaded_file($_FILES['filegambar']['tmp_name'], $target_path);
+                //echo 'Simpan data berhasil';
+
+                $insert = array(
+                        'judul_gambar' => $this->input->post('judul_gambar'),
+                        'gambar' => $nama,
+                        'deskripsi' => $this->input->post('deskripsi'),
+
+                    );
+                $this->db->insert('gambar', $insert);
+
+                $data_session = array(
+                    'alert_home' => 'Tambah fasilitas berhasil'
+                );
+
+                $this->session->set_userdata($data_session);
+                redirect('C_galeri');
+            }
         } else {
-            // Jika proses upload berhasil, dapatkan informasi gambar yang diunggah
-            $image_data = $this->upload->data();
-            // Lakukan tindakan yang sesuai, seperti menyimpan informasi gambar ke database
+            $data_session = array(
+                'alert_home' => 'Upload gagal, gambar kosong'
+            );
+
+            $this->session->set_userdata($data_session);
             redirect('C_galeri');
         }
+    }
+
+       
     }
 
     public function ubah($id)

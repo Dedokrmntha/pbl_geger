@@ -6,7 +6,7 @@
                 <h1 class="text-primary"><span class="text-white">Pantai</span>GEGER</h1>
             </a>
             <p> Layaknya surga tersembunyi di sebuah pantai pribadi dengan suara deburan ombak dan pasir putih yang memukau.</p>
-            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Sosial Media Kami</h6>
             <div class="d-flex justify-content-start">
                 <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -14,44 +14,25 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Website</h5>
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Akses Website</h5>
             <div class="d-flex flex-column justify-content-start">
                 <a class="text-white-50 mb-2" href="<?= base_url('index/index') ?>"><i class="fa fa-angle-right mr-2"></i>Beranda</a>
                 <a class="text-white-50 mb-2" href="<?= base_url('index/about') ?>"><i class="fa fa-angle-right mr-2"></i>Deskripsi</a>
                 <a class="text-white-50 mb-2" href="<?= base_url('index/dayatarik') ?>"><i class="fa fa-angle-right mr-2"></i>Daya Tarik</a>
                 <a class="text-white-50 mb-2" href="<?= base_url('index/fotoGaleri') ?>"><i class="fa fa-angle-right mr-2"></i>Galeri</a>
-                <a class="text-white-50 mb-2" href="<?= base_url('index/contact') ?>"><i class="fa fa-angle-right mr-2"></i>Hubungi</a>
-                <a class="text-white-50 mb-2" href="<?= base_url('index/index') ?>"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Maps</a>
+                <a class="text-white-50 mb-2" href="<?= base_url('index/contact') ?>"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
+                <a class="text-white-50" href="https://www.google.co.id/maps/place/Geger+Beach/@-8.8154818,115.2236595,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd25d7da0820c85:0x38e8cbe3998b5d4b!8m2!3d-8.8154871!4d115.2262344!16s%2Fg%2F11sgdw6zbv?entry=tts&shorturl=1"><i class="fa fa-angle-right mr-2"></i>Maps</a>
 
             </div>
         </div>
-        <!-- <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
-            <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
-                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Guides</a>
-                <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
-            </div>
-        </div> -->
+
         <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Hubungi Kami</h5>
             <p><i class="fa fa-map-marker-alt mr-2"></i>Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali</p>
-            <p><i class="fa fa-phone-alt mr-2"></i>+62</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+6281239143615</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>+6282340178985</p>
             <p><i class="fa fa-envelope mr-2"></i>pantaigeger@gmail.com</p>
-            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
-            <div class="w-100">
-                <div class="input-group">
-                    <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary px-3">Sign Up</button>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -62,7 +43,7 @@
             </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
-            <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+            <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">PBL PNB </a>
             </p>
         </div>
     </div>

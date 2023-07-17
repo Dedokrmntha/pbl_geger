@@ -14,7 +14,7 @@
                     <a href="<?= base_url('index/about') ?>" class="nav-item nav-link">Deskripsi</a>
                     <a href="<?= base_url('index/dayatarik') ?>" class="nav-item nav-link">Daya Tarik</a>
                     <a href="<?= base_url('index/fotoGaleri') ?>" class="nav-item nav-link active">Galeri</a>
-                    <a href="<?= base_url('index/contact') ?>" class="nav-item nav-link ">Hubungi</a>
+                    <a href="<?= base_url('index/contact') ?>" class="nav-item nav-link ">Testimonial</a>
 
                 </div>
             </div>

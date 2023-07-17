@@ -1,9 +1,9 @@
-<div class="container-fluid bg-registration py-5" style="margin: 80px 0;">
+<div class="container-fluid bg-registration  py-5 mt-4" style="">
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-lg-7 mb-5 mb-lg-0">
                 <div class="mb-4">
-                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Hubungi Kami</h6>
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Berikan Testimonial Anda!</h6>
                     <h1 class="text-white"><span class="text-primary">Pantai</span> Geger</h1>
                 </div>
                 <p class="text-white"></p>
@@ -17,10 +17,10 @@
             <div class="col-lg-5">
                 <div class="card border-0">
                     <div class="card-header bg-primary text-center p-4">
-                        <h3 class="text-white m-0">Hubungi Kami</h3>
+                        <h3 class="text-white m-0">Testimonial</h3>
                     </div>
                     <div class="card-body rounded-bottom bg-white p-5">
-                        
+
                         <form class="center" method="post" action="<?php echo base_url('C_komentar/add'); ?>">
                             <div class="form-group">
                                 <tr>
@@ -33,7 +33,7 @@
                                 <label for="email">Email</label>
                                 <input type="text" class="form-control" name="email" id="email" placeholder="Masukkan Email ">
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="pesan">Pesan</label>
                                 <input type="text" class="form-control" name="pesan" id="pesan" placeholder="Masukkan Pesan Anda">
