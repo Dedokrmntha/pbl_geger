@@ -45,5 +45,17 @@ class Auth extends CI_Model
 			redirect('Login');
 		}
     }
+    public function get_all()
+    {
+        $query = $this->db->get('tb_user')->result_array();
+
+        return $query;
+    }
+    public function getDetailUser($id)
+    {
+        $this->db->where('id_user', $id);
+        $result = $this->db->get('tb_user');
+        return $result;
+    }
 }
 ?>  

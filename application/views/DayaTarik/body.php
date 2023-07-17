@@ -3,24 +3,24 @@
       <div id="header-carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                 <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
-                 <video muted autoplay plays-inline loop class="back-video w-100">
-                        <source src="<?= base_url(); ?>/template/img/c2.mp4" type="video/mp4">
-                    </video>
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                  <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
+                  <video muted autoplay plays-inline loop class="back-video w-100">
+                      <source src="<?= base_url(); ?>/template/img/c2.mp4" type="video/mp4">
+                  </video>
+                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                       <div class="p-3" style="max-width: 900px;">
                           <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>
                           <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
-                          <a href="https://www.water-sport-bali.com/pantai-geger-nusa-dua" class="btn btn-primary mt-1">Kunjungi Kami</a>
+                          <!-- <a href="https://www.water-sport-bali.com/pantai-geger-nusa-dua" class="btn btn-primary mt-1">Kunjungi Kami</a> -->
                       </div>
                   </div>
               </div>
               <div class="carousel-item">
-                   <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
-                   <video muted autoplay plays-inline loop class="back-video w-100">
-                        <source src="<?= base_url(); ?>/template/img/d2.mp4" type="video/mp4">
-                    </video>
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                  <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
+                  <video muted autoplay plays-inline loop class="back-video w-100">
+                      <source src="<?= base_url(); ?>/template/img/d2.mp4" type="video/mp4">
+                  </video>
+                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                       <div class="p-3" style="max-width: 900px;">
                           <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
                           <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>
@@ -49,44 +49,6 @@
           <div class="bg-light shadow" style="padding: 10px;">
               <div class="row align-items-center" style="min-height: 60px;">
 
-                  <!-- <div class="col-md-10">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Destination</option>
-                                        <option value="1">Destination 1</option>
-                                        <option value="2">Destination 1</option>
-                                        <option value="3">Destination 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Duration</option>
-                                        <option value="1">Duration 1</option>
-                                        <option value="2">Duration 1</option>
-                                        <option value="3">Duration 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                   <div class="col-md-2">
                       <img class="w-100 h-10" src="<?= base_url('template/img/slider2.jpg') ?>" alt="Image">
                   </div>
@@ -179,7 +141,7 @@
 
   <!-- Akomodasi pantai geger -->
   <div class="container-fluid py-5">
-      <div class="container py-5">
+      <div class="container ">
           <div class="text-center mb-3 pb-3">
               <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">KUNJUNGI</h6>
               <h1>Akomodasi Yang Disediakan</h1>
@@ -196,7 +158,7 @@
                       </div>
                   </div>
               </a>
-              
+
               <a href="https://goo.gl/maps/aGD7b7wRHm6NnQAS9">
                   <div class="text-center">
                       <img class="img-fluid mx-auto" src="<?= base_url('template/img/st-regis-beach-and-pool.jpg') ?>" style="width: 100px; height: 100px;">
@@ -208,24 +170,28 @@
                       </div>
                   </div>
               </a>
-              <div class="text-center">
-                  <img class="img-fluid mx-auto" src="<?= base_url('template/img/the-mulia.jpg') ?>" style="width: 100px; height: 100px;">
-                  <div class="testimonial-text bg-white p-4 mt-n5">
-                      <p class="mt-5">Jl. Raya Nusa Dua Selatan, Nusa Dua 80363, Indonesia. 0,2 km dari Pantai Geger Nusa Dua Bali
-                      </p>
-                      <h5 class="text-truncate">The Mulia</h5>
-                      <span>Hotel Bintang 5</span>
+              <a href="https://goo.gl/maps/wvSqaPkEAyexhB2n7">
+                  <div class="text-center">
+                      <img class="img-fluid mx-auto" src="<?= base_url('template/img/the-mulia.jpg') ?>" style="width: 100px; height: 100px;">
+                      <div class="testimonial-text bg-white p-4 mt-n5">
+                          <p class="mt-5">Jl. Raya Nusa Dua Selatan, Nusa Dua 80363, Indonesia. 0,2 km dari Pantai Geger Nusa Dua Bali
+                          </p>
+                          <h5 class="text-truncate">The Mulia</h5>
+                          <span>Hotel Bintang 5</span>
+                      </div>
                   </div>
-              </div>
-              <div class="text-center">
-                  <img class="img-fluid mx-auto" src="<?= base_url('template/img/melia-bali.jpg') ?>" style="width: 100px; height: 100px;">
-                  <div class="testimonial-text bg-white p-4 mt-n5">
-                      <p class="mt-5">Kawasan Pariwisata ITDC Lot 1 | Jl. Nusa Dua, Nusa Dua 80363, Indonesia. 1,9 km dari Pantai Geger
-                      </p>
-                      <h5 class="text-truncate">Meliá Bali</h5>
-                      <span>Hotel Bintang 5</span>
+              </a>
+              <a href="https://goo.gl/maps/58gLpwWb2xWfj3LW6">
+                  <div class="text-center">
+                      <img class="img-fluid mx-auto" src="<?= base_url('template/img/melia-bali.jpg') ?>" style="width: 100px; height: 100px;">
+                      <div class="testimonial-text bg-white p-4 mt-n5">
+                          <p class="mt-5">Kawasan Pariwisata ITDC Lot 1 | Jl. Nusa Dua, Nusa Dua 80363, Indonesia. 1,9 km dari Pantai Geger
+                          </p>
+                          <h5 class="text-truncate">Meliá Bali</h5>
+                          <span>Hotel Bintang 5</span>
+                      </div>
                   </div>
-              </div>
+              </a>
           </div>
       </div>
   </div>
