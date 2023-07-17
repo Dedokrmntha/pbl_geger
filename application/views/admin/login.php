@@ -46,7 +46,7 @@
 					<label for="password">Password</label>
 					<input type="password" class="form-control" name="password" id="password" placeholder="Password">
 					</div>
-					<button type="submit" class="btn btn-primary">Login</button>
+					<button type="submit" class="btn btn-primary" id="login">Login</button>
 				        </form>
                         </div>
                         <div class="text-center">

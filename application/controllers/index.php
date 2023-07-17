@@ -27,6 +27,13 @@ class index extends CI_Controller {
 		$this->load->view('About/body');
 		$this->load->view('layout/footer');
 	}
+	public function deskripsi_lengkap()
+	{
+		$this->load->view('layout/header');
+		$this->load->view('About/navbar');
+		$this->load->view('About/deskripsi_lengkap');
+		$this->load->view('layout/footer');
+	}
 	public function dayatarik()
 	{
 		$this->load->view('layout/header');

@@ -3,8 +3,11 @@
       <div id="header-carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img class="w-100" src="<?= base_url('template/img/slider3.jpg') ?>" alt="Image">
-                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                 <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
+                 <video muted autoplay plays-inline loop class="back-video w-100">
+                        <source src="<?= base_url(); ?>/template/img/c2.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                       <div class="p-3" style="max-width: 900px;">
                           <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>
                           <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
@@ -13,8 +16,11 @@
                   </div>
               </div>
               <div class="carousel-item">
-                  <img class="w-100" src="<?= base_url('template/img/slider5.jpg') ?>" alt="Image">
-                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                   <!-- <img class="w-100" src="<?= base_url('template/img/slider1.jpg') ?>" alt="Image"> -->
+                   <video muted autoplay plays-inline loop class="back-video w-100">
+                        <source src="<?= base_url(); ?>/template/img/d2.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                       <div class="p-3" style="max-width: 900px;">
                           <h4 class="text-white text-uppercase mb-md-3">Pantai Geger </h4>
                           <h1 class="display-3 text-white mb-md-4">Daya Tarik</h1>

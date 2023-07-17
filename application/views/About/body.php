@@ -139,7 +139,7 @@
                             <img class="img-fluid" src="<?= base_url('template/img/geger4aja.jpg') ?>" alt="">
                         </div>
                     </div>
-                    <a href="https://ksmtour.com/informasi/tempat-wisata/bali/pantai-geger-pantai-pasir-putih-yang-tenang-di-bali.html" class="btn btn-primary mt-1">Baca Selengkapnya</a>
+                    <a href="<?=base_url('index/deskripsi_lengkap')?>" class="btn btn-primary mt-1">Baca Selengkapnya</a>
                 </div>
 
             </div>
