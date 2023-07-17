@@ -38,8 +38,8 @@
                                                       </td>
                                                       <td class="text-secondary text-xs font-weight-bold"><?php echo $key['deskripsi'] ?></td>
                                                       <td>
-                                                          <a class="btn btn-primary" href="<?php echo base_url('C_galeri/ubah/' . $key['id_gambar']) ?>">Edit</a>
-                                                          <a class="btn btn-danger" href="<?php echo base_url('C_galeri/delete/' . $key['id_gambar']) ?>">Delete</a>
+                                                          <a class="btn btn-primary mb-1" href="<?php echo base_url('C_galeri/ubah/' . $key['id_gambar']) ?>">Edit</a>
+                                                          <a class="btn btn-danger" onclick="javascript: return confirm('Apakah anda yakin ingin hapus?')" href="<?php echo base_url('C_galeri/delete/' . $key['id_gambar']) ?>">Delete</a>
                                                       </td>
 
 

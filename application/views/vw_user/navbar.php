@@ -38,10 +38,10 @@
                              Admin
                          </a>
                          <div class="sb-sidenav-menu-heading">Master Data</div>
-                         <a class="nav-link" href="<?= base_url('C_admin/')?>">
+                         <!-- <a class="nav-link" href="<?= base_url('C_admin/')?>">
                              <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                              Data Admin
-                         </a>
+                         </a> -->
                          <a class="nav-link" href="<?= base_url('C_galeri/')?>">
                              <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                              Data Galeri

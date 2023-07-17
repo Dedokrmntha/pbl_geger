@@ -36,9 +36,10 @@
                                                       </td>
                                                       <td class="text-secondary text-xs font-weight-bold"><?php echo $key['pesan'] ?></td>
                                                       <td class="text-secondary text-xs font-weight-bold"><?php echo $key['balas'] ?></td>
-                                                      <td>
-                                                          <a class="btn btn-success" href="<?php echo base_url('C_komentar/balas/' . $key['id_komentar']) ?>">Balas</a>
-                                                          <a class="btn btn-danger" href="<?php echo base_url('C_komentar/delete/' . $key['id_komentar']) ?>">Delete</a>
+                                                      <td >
+                                                          <a class="btn btn-success  mb-1" href="<?php echo base_url('C_komentar/balas/' . $key['id_komentar']) ?>">Balas</a>
+                                                         
+                                                          <a class="btn btn-danger" onclick="javascript: return confirm('Apakah anda yakin ingin hapus?')" href="<?php echo base_url('C_komentar/delete/' . $key['id_komentar']) ?>">Delete</a>
                                                       </td>
 
 

@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div>
-<!-- 
+
             <?php foreach ($galeri as $key) : ?>
 
                 <div class="col-lg-4 col-md-6 mb-4 pb-2">
@@ -70,6 +70,7 @@
                         <div class="position-relative">
 
                             <img src="<?php echo base_url() . '/uploads/' . $key['gambar'] ?>" class="img-fluid w-100" alt="...">
+                            
                             <div class="blog-date">
                                 <h6 class="font-weight-bold mb-n1"></h6>
                                 <small class="text-white text-uppercase"></small>
@@ -81,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-            <?php endforeach; ?> -->
+            <?php endforeach; ?>
         </div>
     </div>
 </div>

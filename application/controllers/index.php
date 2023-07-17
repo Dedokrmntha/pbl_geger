@@ -46,10 +46,13 @@ class index extends CI_Controller {
 	
 public function fotoGaleri()
 	{
-		
+		$this->load->model('M_galeri');
+		$data = [
+			'galeri' => $this->M_galeri->get_all(),
+		];
 		$this->load->view('layout/header');
 		$this->load->view('vw_user/galeri/navbarGaleri');
-		$this->load->view('vw_user/galeri/foto_galeri');
+		$this->load->view('vw_user/galeri/foto_galeri',$data);
 		$this->load->view('layout/footer');
 	
 }

@@ -52,6 +52,24 @@ class C_galeri extends CI_Controller {
             $this->M_galeri->insertGaleri();
             redirect('C_galeri');
         }
+
+        // Konfigurasi upload gambar
+        $config['upload_path'] = './galeri';  // Ubah sesuai dengan direktori upload gambar
+        $config['allowed_types'] = 'gif|jpg|jpeg|png';
+        $config['max_size'] = 2048;  // Ukuran maksimum gambar dalam kilobita (2MB)
+
+        $this->load->library('upload', $config);
+
+        if (!$this->upload->do_upload('gambar')) {
+            // Jika proses upload gagal, tangani error
+            $error = $this->upload->display_errors();
+            // Lakukan tindakan yang sesuai, seperti menampilkan pesan kesalahan
+        } else {
+            // Jika proses upload berhasil, dapatkan informasi gambar yang diunggah
+            $image_data = $this->upload->data();
+            // Lakukan tindakan yang sesuai, seperti menyimpan informasi gambar ke database
+            redirect('C_galeri');
+        }
     }
 
     public function ubah($id)
@@ -85,6 +103,64 @@ class C_galeri extends CI_Controller {
     {
         $this->M_galeri->deleteGaleri($id);
         redirect('C_galeri');
+    }
+
+    // public function upload()
+    // {
+    //     $config['upload_path'] = './uploads/';
+    //     $config['allowed_types'] = 'gif|jpg|jpeg|png';
+    //     $config['max_size'] = 2048; // maksimal 2MB
+    //     $config['encrypt_name'] = TRUE;
+
+    //     $this->load->library('upload', $config);
+
+    //     if (!$this->upload->do_upload('gambar')) {
+    //         $error = array('error' => $this->upload->display_errors());
+    //         $this->load->view('upload_form', $error);
+    //     } else {
+    //         $data = $this->upload->data();
+    //         $gambar_data = file_get_contents($data['full_path']);
+    //         $this->M_galeri->simpan_gambar($data['file_name'], $gambar_data);
+    //         redirect('gambar');
+    //     }
+    // // }
+    // public function upload_image()
+    // {
+    //     // Konfigurasi upload gambar
+    //     $config['upload_path'] = './galeri';  // Ubah sesuai dengan direktori upload gambar
+    //     $config['allowed_types'] = 'gif|jpg|jpeg|png';
+    //     $config['max_size'] = 2048;  // Ukuran maksimum gambar dalam kilobita (2MB)
+
+    //     $this->load->library('upload', $config);
+
+    //     if (!$this->upload->do_upload('gambar')) {
+    //         // Jika proses upload gagal, tangani error
+    //         $error = $this->upload->display_errors();
+    //         // Lakukan tindakan yang sesuai, seperti menampilkan pesan kesalahan
+    //     } else {
+    //         // Jika proses upload berhasil, dapatkan informasi gambar yang diunggah
+    //         $image_data = $this->upload->data();
+    //         // Lakukan tindakan yang sesuai, seperti menyimpan informasi gambar ke database
+    //         redirect('C_galeri');
+    //     }
+    // }
+
+    public function show_image($image_id)
+    {
+        // Dapatkan data gambar dari database berdasarkan ID atau informasi lain yang unik
+        $image = $this->db->get_where('tb_gambar', ['id_gambar' => $image_id])->row();
+
+        // Cek apakah data gambar ditemukan
+        if ($image) {
+            // Mendapatkan informasi gambar
+            $image_path = './galeri' . $image->image_filename;  // Ubah sesuai dengan direktori penyimpanan gambar
+
+            // Set header dan tampilkan gambar
+            header('Content-Type: image/jpeg/jpg');  // Ganti tipe MIME sesuai format gambar yang tersimpan
+            readfile($image_path);
+        } else {
+            // Tangani jika data gambar tidak ditemukan, misalnya dengan menampilkan gambar placeholder atau pesan kesalahan
+        }
     }
 
 }

@@ -484,30 +484,31 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h6>
-                <h1>Komentar Para Pengunjung</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <?php
-                foreach ($komentar as $key) {
-                ?>
+
+    <div class="testimonial">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-3 pb-3">
+                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h6>
+                    <h1>Komentar Para Pengunjung</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <?php
+                    foreach ($komentar as $key) {
+                    ?>
+                        <div class="text-center">
+                            <img class="img-fluid mx-auto" src="<?= base_url('template/img/orangkomen.png') ?>" style="width: 100px; height: 100px;">
+                            <div class="testimonial-text bg-white p-4 mt-n5"> <br> <br>
+                                <h5 class="text-truncate "><?php echo $key['nama'] ?></h5>
+                                <p class="mt-3"><?php echo $key['pesan'] ?></p>
 
 
-                    <div class="text-center">
-                        <img class="img-fluid mx-auto" src="<?= base_url('template/img/orangkomen.png') ?>" style="width: 100px; height: 100px;">
-                        <div class="testimonial-text bg-white p-4 mt-n5"> <br> <br>
-                            <h5 class="text-truncate "><?php echo $key['nama'] ?></h5>
-                            <p class="mt-3"><?php echo $key['pesan'] ?></p>
-                            
-
+                            </div>
                         </div>
-                    </div>
-                <?php
-                }
-                ?>
+                    <?php
+                    }
+                    ?>
+                </div>
             </div>
         </div>
     </div>

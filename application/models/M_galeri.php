@@ -34,7 +34,7 @@ class M_galeri extends CI_Model
     {
         $insert = array(
             'judul_gambar' => $this->input->post('judul_gambar'),
-            'gambar' => $this->input->post('gambar'),
+            'gambar' => $_FILES['gambar'],
             'deskripsi' => $this->input->post('deskripsi'),
 
         );
@@ -67,6 +67,21 @@ class M_galeri extends CI_Model
         $result = $this->db->delete('tb_gambar');
         return $result;
     }
+
+    // public function simpan_gambar($nama_gambar, $gambar_data)
+    // {
+    //     $data = array(
+    //         'nama_gambar' => $nama_gambar,
+    //         'gambar' => $gambar_data
+    //     );
+    //     $this->db->insert('galeri', $data);
+    //     return $this->db->insert_id();
+    // }
+
+    // public function get_gambar()
+    // {
+    //     return $this->db->get('galeri')->result_array();
+    // }
 }                        
                         
 
