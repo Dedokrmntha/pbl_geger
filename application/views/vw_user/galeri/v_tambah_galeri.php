@@ -25,7 +25,7 @@
 
               <div class="col-12">
                 <tr>
-                  <td colspan="3"><?php echo form_error('gambar') ?></td>
+                  <td colspan="3"><?php echo form_error('filegambar') ?></td>
                 </tr>
                 <label for="inputGambar" class="form-label">Gambar</label>
                 <input type="file" class="form-control" id="inputGambar" name="filegambar" placeholder="Masukkan Gambar">

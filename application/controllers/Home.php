@@ -14,7 +14,7 @@ class Home extends CI_Controller
   public function index()
   {
     $data = [
-      'data_user' => $this->Auth->get_all(),
+      'data_user' => $this->session->userdata('username'),
     ];
     $this->load->view('vw_user/header');
     $this->load->view('vw_user/navbar');

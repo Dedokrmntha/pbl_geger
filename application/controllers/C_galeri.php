@@ -32,27 +32,13 @@ class C_galeri extends CI_Controller {
         $this->load->view('vw_user/footer');
     }
 
+    
     public function add()
     {
-
-        $rules = $this->M_galeri->validation();
-
-        $this->form_validation->set_rules($rules);
-
-        if ($this->form_validation->run() == FALSE) {
-            $this->load->model('M_galeri');
-            $data = [
-                'galeri' => $this->M_galeri->get_all()
-            ];
-            $this->load->view('vw_user/header');
-            $this->load->view('vw_user/navbar');
-            $this->load->view('vw_user/galeri/v_tambah_galeri', $data);
-            $this->load->view('vw_user/footer');
-        } else {
-            if ($_FILES["filegambar"]["error"] == 0) {
+        if ($_FILES["filegambar"]["error"] == 0) {
             //tempat gambar beserta nama filenya disimpan
             $nama = $_FILES['filegambar']['name'];
-            $tempdir = './galeri';
+            $tempdir = './galeri/';
 
             $target_path = $tempdir . $nama;
 
@@ -76,19 +62,19 @@ class C_galeri extends CI_Controller {
                 //echo 'Simpan data berhasil';
 
                 $insert = array(
-                        'judul_gambar' => $this->input->post('judul_gambar'),
-                        'gambar' => $nama,
-                        'deskripsi' => $this->input->post('deskripsi'),
+                    'judul_gambar' => $this->input->post('judul_gambar'),
+                    'gambar' => $nama,
+                    'deskripsi' => $this->input->post('deskripsi'),
 
-                    );
-                $this->db->insert('gambar', $insert);
+                );
+                $this->db->insert('tb_gambar', $insert);
 
                 $data_session = array(
                     'alert_home' => 'Tambah fasilitas berhasil'
                 );
 
                 $this->session->set_userdata($data_session);
-                redirect('C_galeri');
+                redirect(base_url("C_galeri"));
             }
         } else {
             $data_session = array(
@@ -96,13 +82,11 @@ class C_galeri extends CI_Controller {
             );
 
             $this->session->set_userdata($data_session);
-            redirect('C_galeri');
+            redirect(base_url("AdminVilla/datavilla"));
         }
     }
 
-       
-    }
-
+   
     public function ubah($id)
     {
         $data['galeri'] = $this->M_galeri->getDetailGaleri($id);

@@ -12,9 +12,9 @@ class M_galeri extends CI_Model
                 'rules' => 'required|max_length[32]'
             ],
             [
-                'field' => 'gambar',
+                'field' => 'filegambar',
                 'label' => 'Gambar',
-                'rules' => 'required|max_length[32]'
+                'rules' => ''
             ],
             [
                 'field' => 'deskripsi',

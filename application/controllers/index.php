@@ -12,9 +12,12 @@ class index extends CI_Controller {
 	public function index()
 	{
 		$this->load->model('M_komentar');
+		$this->load->model('M_galeri');
 		$data = [
 			'komentar' => $this->M_komentar->get_all(),
+			'galeri' => $this->M_galeri->get_all()
 		];
+		
 		$this->load->view('layout/header');
 		$this->load->view('layout/navbar');
 		$this->load->view('Home/body',$data);
@@ -22,9 +25,13 @@ class index extends CI_Controller {
 	}
 	public function about()
 	{
+		$this->load->model('M_galeri');
+		$data = [
+			'galeri' => $this->M_galeri->get_all(),
+		];
 		$this->load->view('layout/header');
 		$this->load->view('About/navbar');
-		$this->load->view('About/body');
+		$this->load->view('About/body',$data);
 		$this->load->view('layout/footer');
 	}
 	public function deskripsi_lengkap()
