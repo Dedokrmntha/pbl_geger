@@ -5,13 +5,13 @@
                                   <ol class="breadcrumb mb-2">
                                       <li class="breadcrumb-item active">Admin</li>
                                   </ol>
-                                  <a class="btn btn-success mb-3" href="<?= base_url('C_galeri/tambah/') ?>">Tambah</a> <br>
+
                                   <div class="card mb-4">
-                                      <div class="card-header">
+                                      <div class="card-header ">
 
                                           <i class="fas fa-table me-1"></i>
                                           Tabel Gambar
-
+                                              <a class="btn btn-success " href="<?= base_url('C_galeri/tambah/') ?>">Tambah</a> <br>
                                       </div>
                                       <div class="card-body">
                                           <table class="table" id="datatablesSimple">

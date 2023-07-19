@@ -496,11 +496,18 @@
                     <?php
                     foreach ($komentar as $key) {
                     ?>
-                        <div class="text-center">
+                        <div>
                             <img class="img-fluid mx-auto" src="<?= base_url('template/img/orangkomen.png') ?>" style="width: 100px; height: 100px;">
                             <div class="testimonial-text bg-white p-4 mt-n5"> <br> <br>
-                                <h5 class="text-truncate "><?php echo $key['nama'] ?></h5>
-                                <p class="mt-3"><?php echo $key['pesan'] ?></p>
+                                <div class="text-center">
+                                    <h5 class="text-truncate "><b><?php echo $key['nama'] ?></b></h5>
+                                    <p class="mt-3"><?php echo $key['pesan'] ?></p>
+                                </div>
+                                <div>
+                                    <b > Balasan: </b>
+                                    <p class="mt-3" style=""><?php echo $key['balas'] ?></p>
+                                </div>
+                                
                             </div>
                         </div>
                     <?php
@@ -515,7 +522,7 @@
 
     <!-- Blog Start -->
     <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
+        <div class="container  pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Pantai Geger</h6>
                 <h1>Galeri Kami</h1>
@@ -538,9 +545,9 @@
                             </div>
                             <div class="bg-white p-4">
                                 <div class="d-flex mb-2">
-                                    <a class="text-primary text-uppercase text-decoration-none" href=""><?php echo $key['judul_gambar'] ?></a>
+                                    <h6 class="text-primary text-uppercase text-decoration-none" ><?php echo $key['judul_gambar'] ?></h6>
                                 </div>
-                                <a class="h5 m-0 text-decoration-none" href=""><?php echo $key['deskripsi'] ?></a>
+                                <h6><?php echo $key['deskripsi'] ?></h6>
                             </div>
                         </div>
                     </div>

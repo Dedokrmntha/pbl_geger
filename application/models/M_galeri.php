@@ -19,7 +19,7 @@ class M_galeri extends CI_Model
             [
                 'field' => 'deskripsi',
                 'label' => 'Deskripsi',
-                'rules' => 'required|max_length[32]'
+                'rules' => ''
             ],
             
         ];
