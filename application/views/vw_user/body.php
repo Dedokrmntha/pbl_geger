@@ -6,7 +6,7 @@
                                       <!-- <img class="img-fluid w-100" src="<?= base_url('template/img/slider3.jpg') ?>" alt=""> -->
                                       <div>
                                           <div class="text-center" style="position: absolute; margin-top: 200px; margin-left: 100px;">
-                                              <h4 class="text-white text-uppercase mb-md-3"><b>Selamat datang di Admin <?= $data_user ?></b></h4>
+                                              <h4 class="text-white text-uppercase mb-md-3"><b>Selamat datang Admin <?= $data_user ?></b></h4>
                                               <h1 class="display-3 text-white mb-5 pb-5"><b>Website Admin Pantai Geger</b></h1>
                                         </div>
                                           <!-- <h1 class="display-3 text-white mb-5 pb-5">    </h1>
