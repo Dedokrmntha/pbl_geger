@@ -11,7 +11,7 @@
 
                                           <i class="fas fa-table me-1"></i>
                                           Tabel Gambar
-                                              <a class="btn btn-success " href="<?= base_url('C_galeri/tambah/') ?>">Tambah</a> <br>
+                                          <a class="btn btn-success " href="<?= base_url('C_galeri/tambah/') ?>">Tambah</a> <br>
                                       </div>
                                       <div class="card-body">
                                           <table class="table" id="datatablesSimple">
@@ -34,8 +34,7 @@
                                                       <td class="text-secondary text-xxs font-weight-bold"><?php echo $no++ ?></td>
                                                       <td class="text-secondary text-xs font-weight-bold"><?php echo $key['judul_gambar'] ?>
                                                       </td>
-                                                      <td class="text-secondary text-xs font-weight-bold"><?php echo $key['gambar'] ?>
-                                                      </td>
+                                                      <td> <img class="" src="<?= base_url('galeri/') . $key['gambar'] ?>" alt="" style="max-width: 300px;"></td>
                                                       <td class="text-secondary text-xs font-weight-bold"><?php echo $key['deskripsi'] ?></td>
                                                       <td>
                                                           <a class="btn btn-primary mb-1" href="<?php echo base_url('C_galeri/ubah/' . $key['id_gambar']) ?>">Edit</a>

@@ -501,11 +501,11 @@
                             <div class="testimonial-text bg-white p-4 mt-n5"> <br> <br>
                                 <div class="text-center">
                                     <h5 class="text-truncate "><b><?php echo $key['nama'] ?></b></h5>
-                                    <p class="mt-3"><?php echo $key['pesan'] ?></p>
+                                    <p class="mt-3"><b>"</b><?php echo $key['pesan'] ?><b>"</b></p>
                                 </div>
                                 <div>
                                     <b > Balasan: </b>
-                                    <p class="mt-3" style=""><?php echo $key['balas'] ?></p>
+                                    <p class="mt-3" style=""><b>"</b><?php echo $key['balas'] ?><b>"</b></p>
                                 </div>
                                 
                             </div>
