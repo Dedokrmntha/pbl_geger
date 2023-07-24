@@ -3,8 +3,8 @@
         <div class="row">
             
             <div class="col-lg-100  pb-lg-5">
-                <div class="about-text bg-white  ">
-                    <h4 class="text-center text-primary text-uppercase" style="letter-spacing: 5px;">DESKRIPSI</h4>
+                <div class="about-text bg-white ">
+                    <h4 class="text-center text-primary text-uppercase" style="letter-spacing: 5px;"> <br>DESKRIPSI</h4>
                     <h1 class="text-center mb-3">Tentang Pantai Geger</h1>
                     <p>Anda ingin menikmati suasana pantai seperti di padang pasir? Suasana seperti itu ada di Bali, 
                         tempat itu bernama Pantai Geger. Nama Pantai Geger Bali belum begitu dikenal wisatawan yang datang ke Bali, 

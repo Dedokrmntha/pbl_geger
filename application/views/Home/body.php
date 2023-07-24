@@ -11,7 +11,7 @@
                         <div class="p-3" style=" max-height:100px; max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Selamat datang di </h4>
                             <h1 class="display-3 text-white mb-md-4">Website Pantai Geger</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
+                            <a href="https://goo.gl/maps/4S8vvDB3u7PvjzZu6" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Selamat datang di </h4>
                             <h1 class="display-3 text-white mb-md-4">Website Pantai Geger</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
+                            <a href="https://goo.gl/maps/4S8vvDB3u7PvjzZu6" class="btn btn-primary py-md-3 px-md-5 mt-2">Kunjungi</a>
                         </div>
                     </div>
                 </div>
@@ -504,10 +504,10 @@
                                     <p class="mt-3"><b>"</b><?php echo $key['pesan'] ?><b>"</b></p>
                                 </div>
                                 <div>
-                                    <b > Balasan: </b>
+                                    <b> Balasan: </b>
                                     <p class="mt-3" style=""><b>"</b><?php echo $key['balas'] ?><b>"</b></p>
                                 </div>
-                                
+
                             </div>
                         </div>
                     <?php
@@ -545,7 +545,7 @@
                             </div>
                             <div class="bg-white p-4">
                                 <div class="d-flex mb-2">
-                                    <h6 class="text-primary text-uppercase text-decoration-none" ><?php echo $key['judul_gambar'] ?></h6>
+                                    <h6 class="text-primary text-uppercase text-decoration-none"><?php echo $key['judul_gambar'] ?></h6>
                                 </div>
                                 <h6><?php echo $key['deskripsi'] ?></h6>
                             </div>

@@ -8,9 +8,9 @@
             <p> Layaknya surga tersembunyi di sebuah pantai pribadi dengan suara deburan ombak dan pasir putih yang memukau.</p>
             <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Sosial Media Kami</h6>
             <div class="d-flex justify-content-start">
-                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square mr-2" href="https://www.facebook.com/profile.php?id=100080870486424"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/pantaigeger/"><i class="fab fa-instagram"></i></a>
+
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
@@ -43,7 +43,7 @@
             </p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
-            <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">PBL PNB </a>
+            <p class="m-0 text-white-50">Designed by <a href="">PBL PNB </a>
             </p>
         </div>
     </div>
